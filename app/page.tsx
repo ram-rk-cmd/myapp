@@ -1,5 +1,13 @@
-import Image from "next/image";
+// pages/about.js
+import React from 'react';
 
-export default function Home() {
-  return <>HII</>;
+function AboutPage() {
+  return (
+    <div>
+      <h1>About Us</h1>
+      <p>This is a simple about page in Next.js.</p>
+    </div>
+  );
 }
+
+export default AboutPage;
