@@ -1,4 +1,7 @@
-'use client' // This directive ensures the component is client-rendered
+import Image from "next/image";
+
+export default function Home() {
+  return <>'use client' // This directive ensures the component is client-rendered
 
 import { useState, useEffect, useRef } from 'react';
 
@@ -64,4 +67,6 @@ export default function GamePage() {
       />
     </div>
   );
+}
+</>;
 }
